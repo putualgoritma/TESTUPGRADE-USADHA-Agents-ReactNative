@@ -59,7 +59,7 @@ class Scan extends  React.Component {
       if(barcode == null){
         console.log('null')
       }else{
-        // Axios.post('https://admin.belogherbal.com/api/close/member-show', {phone : '082235265301'},
+        // Axios.post('https://upgrade.belogherbal.com/api/close/member-show', {phone : '082235265301'},
         // {
         //   headers: {
         //     Authorization: `Bearer ${this.state.TOKEN}`,
