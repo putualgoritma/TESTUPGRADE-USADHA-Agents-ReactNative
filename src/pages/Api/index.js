@@ -13,7 +13,7 @@ const Api = () => {
     const getData = () => {
         // Axios({
         //     method: 'post',
-        //     url: 'https://upgrade.belogherbal.com/api/open/login',
+        //     url: 'https://testupgrade.belogherbal.com/api/open/login',
         //     data: {
         //       email: 'putualgoritma@gmail.com',
         //       password: '123456'
@@ -25,7 +25,7 @@ const Api = () => {
         //   }).then((res) => {
         //       console.log(res)
         //   })
-        Axios.post('https://upgrade.belogherbal.com/api/open/login', {
+        Axios.post('https://testupgrade.belogherbal.com/api/open/login', {
             email : 'putualgoritma@gmail.com',
             password : '123456'
         },

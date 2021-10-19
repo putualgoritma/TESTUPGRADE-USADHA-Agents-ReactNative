@@ -46,7 +46,7 @@ const ItemKeranjang = ({
 
 
   const getProduct = () => {
-    Axios.get(`https://upgrade.belogherbal.com/api/close/product/${cart.id}`, {
+    Axios.get(`https://testupgrade.belogherbal.com/api/close/product/${cart.id}`, {
       headers : {
         Authorization: `Bearer ${TOKEN}`,
         'Accept' : 'application/json' 
@@ -107,7 +107,7 @@ const ItemKeranjang = ({
             }}
             style={styles.checkbox}
           />
-          <Image source={{uri : `https://upgrade.belogherbal.com/${cart.img}`}} style={styles.image} />
+          <Image source={{uri : `https://testupgrade.belogherbal.com/${cart.img}`}} style={styles.image} />
           <View style={styles.textContent}>
             <Text style={styles.title}>{cart.namaProduct} </Text>
             <Text>Sisa 5</Text>
